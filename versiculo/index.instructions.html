@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Bible Verse</title>
+</head>
+<style>
+      *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0}
+    body {
+        font-family:'Times New Roman', Times, serif;
+        margin: 20px;
+         background-image: url("https://minqirl.github.io/calendario2/fondo.jpg");
+       display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #dailyVersesWrapper {
+        width: 220px;
+        height: 270px;
+        border-radius: 10px;
+        background-color: #ECDCD1;
+        opacity: 50%;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        color: #5B6A57;
+        align-content: center;
+        font-weight: bolder;
+        text-align: center;
+        font-size: 18px;
+        line-height: 1;
+    }
+    a {
+        color: #BB998B;
+        text-decoration: none;
+        line-height: 1.5;
+         }
+</style>
+<body>
+    <div id="dailyVersesWrapper"></div>
+<script async defer src="https://dailyverses.net/get/verse.js?language=rvr60"></script>
+</body>
+</html>
